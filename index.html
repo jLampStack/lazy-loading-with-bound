@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazy Loading </title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+ 
+  <section id="intro">
+ 
+    <h1>Lazy Loading Images</h1>
+ 
+    <h3>Requirements</h3>
+ 
+    <p>You pretty much just need a Code Editor, Dev Server and <a href="https://github.com/ChrisCavs/bounds.js">Bound.js</a>
+      
+    <p>For this project I'm using the server that comes with <a href="https://parceljs.org/getting_started.html">Parcel</a> web application bundler to serve the project</p>
+    
+    <h3>Getting Started</h3>
+
+    <ul>
+      <li><b>npm init -y</b> &nbsp; -- Intializes project and creates package.json</li><BR>
+      <li><b>npm i -g parcel-bundler</b> &nbsp; -- Installs Parcel globally and allows us to use its dev server</li><BR>
+      <li><b>npm i bounds.js --save</b> &nbsp; --Saves Bound as a dependency</li><BR>
+      <li><b>Add project files </b> &nbsp; -- <i>index.html</i>, <i>index.js</i> and a css style stylesheet</li><BR>
+      <li><b>Import Bound at top on line 1 of index.js</b> &nbsp; -- import Bound from 'bounds.js';</li><BR>
+      <li><b>Serve project from root dir</b> &nbsp; -- parcel index.html</li>
+    </ul>
+  </section>
+
+
+  
+  <section>
+    <h2>ONE</h2>
+    <!-- Use data-src="" instead of src="" -->
+    <img data-src="./img/motivation-1.jpg" alt="Motivational photo">
+  </section>
+ 
+  <section>
+    <h2>TWO</h2>
+    <img data-src="./img/motivation-2.jpg" alt="Motivational photo">
+  </section>
+
+  <section>
+    <h2>THREE</h2>
+    <img data-src="./img/motivation-3.jpg" alt="Motivational photo">
+  </section>
+
+  <section>
+    <h2>FOUR</h2>
+    <img data-src="./img/motivation-4.jpg" alt="Motivational photo">
+  </section>
+
+  <section>
+    <h2>FIVE</h2>
+    <img data-src="./img/motivation-5.jpg" alt="Motivational photo">
+  </section>
+
+  <section>
+    <h2>SIX</h2>
+    <img data-src="./img/motivation-6.jpg" alt="Motivational photo">
+  </section>
+
+  <section>
+    <h2>SEVEN</h2>
+    <img data-src="./img/motivation-7.jpg" alt="Motivational photo">
+  </section>
+
+  <section>
+    <h2>EIGHT</h2>
+    <img data-src="./img/motivation-8.jpg" alt="Motivational photo">
+  </section>
+
+  <section>
+    <h2>NINE</h2>
+    <img data-src="./img/motivation-9.jpg" alt="Motivational photo">
+  </section>
+  <section>
+
+    <h2>TEN</h2>
+    <img data-src="./img/motivation-10.jpeg" alt="Motivational photo">
+  </section>
+  
+  <script src="./js/index.js"></script>
+</body>
+</html>

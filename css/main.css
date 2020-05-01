@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0 20%;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+#intro {
+  min-height: 100vh;
+}
+
+section {
+  margin-bottom: 40vh;
+}
+
+h1 {
+  margin-top: 4em;
+  font-size: 3rem;
+}
+
+/* Be careful using opacity, it can cause for choppy loading */
+
+img {
+  /* opacity: .1; */
+  /* transition: opacity 2s; */
+  width: 100%;
+} 
+
+
+.show {
+  opacity: 1;
+}  
